@@ -1,6 +1,6 @@
 # ROS_Tic-Tac-Toe
 
-This repository hosts the code for the ROS <project1_pkg> package which implements the Tic-Tace-Toe game for the Robot Operating System (ROS 1 Melodic) 
+This repository hosts the code for the ROS <project1_pkg> package which implements the Tic-Tac-Toe game for the Robot Operating System (ROS 1 Melodic) 
 using turtlesim 
 
 This game will have turtlesim create a tic-tac-toe game board and it will draw all the player commands on the board to provide a physical interpretation of 
