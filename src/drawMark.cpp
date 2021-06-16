@@ -56,7 +56,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
 
             // Draw a circle
             int count = 0;
-            while(count != 3){
+            while(count != 4){
        
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -106,7 +106,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
         
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -155,7 +155,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
       
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -204,7 +204,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
             
-            while(count != 3){
+            while(count != 4){
         
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -253,7 +253,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
         
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -302,7 +302,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
         
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -350,7 +350,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
       
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -399,7 +399,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
      
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;
@@ -448,7 +448,7 @@ void myTopicCallback(const project1_pkg::my_msg::ConstPtr& msg){
             // Draw a circle
             int count = 0;
 
-            while(count != 3){
+            while(count != 4){
      
                 draw_command.linear.x = 5.0;
                 draw_command.linear.y = 0.0;

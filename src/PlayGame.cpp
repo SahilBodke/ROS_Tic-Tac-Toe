@@ -23,10 +23,10 @@ int main(int argc, char **argv){
     int symbol;
 
     // Initialize a map that maps position to the symbol at that position
-    map<int, string> map;
+    map<int, int> map;
     for(int i = 1; i <= 9; i++){
 
-        map.insert(pair<int, string>(i, "empty"));
+        map.insert(pair<int, int>(i, -1));
     }
 
     cout << "turn = 1 --> 'I-Shape' " << endl;
@@ -67,56 +67,56 @@ int main(int argc, char **argv){
         // Check for victory
         if(moves >= 5){
 
-            if(((map[1] == map[2]) && (map[2] == map[3])) && map[1] != "empty"){
+            if(((map[1] == map[2]) && (map[2] == map[3])) && map[1] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[4] == map[5]) && (map[5] == map[6])) && map[4] != "empty"){
+            else if(((map[4] == map[5]) && (map[5] == map[6])) && map[4] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[7] == map[8]) && (map[8] == map[9])) && map[7] != "empty"){
+            else if(((map[7] == map[8]) && (map[8] == map[9])) && map[7] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[1] == map[4]) && (map[4] == map[7])) && map[1] != "empty"){
+            else if(((map[1] == map[4]) && (map[4] == map[7])) && map[1] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[2] == map[5]) && (map[5] == map[8])) && map[2] != "empty"){
+            else if(((map[2] == map[5]) && (map[5] == map[8])) && map[2] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[3] == map[6]) && (map[6] == map[9])) && map[3] != "empty"){
+            else if(((map[3] == map[6]) && (map[6] == map[9])) && map[3] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[1] == map[5]) && (map[5] == map[9])) && map[7] != "empty"){
+            else if(((map[1] == map[5]) && (map[5] == map[9])) && map[1] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
                 break;
 
             }
-            else if(((map[3] == map[5]) && (map[5] == map[7])) && map[3] != "empty"){
+            else if(((map[3] == map[5]) && (map[5] == map[7])) && map[3] != -1){
 
                 cout << "\nGame Over" << endl;
                 cout<< "Player "<< turn << " won !!" << endl;
