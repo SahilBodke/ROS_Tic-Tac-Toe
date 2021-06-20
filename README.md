@@ -32,3 +32,6 @@ Finally start the package using roslaunch command: roslaunch project1_pkg tic_ta
 
 * This node, which subscribes to the "/Game" node, computes the received message and draws the appropriate at the desired location on the game board
   
+# Game Play
+
+![](5dgct1.gif)
