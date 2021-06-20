@@ -34,4 +34,5 @@ Finally start the package using roslaunch command: roslaunch project1_pkg tic_ta
   
 # Game Play
 
-![](5dgct1.gif)
+![5dgct1](https://user-images.githubusercontent.com/62556280/122666331-3bb13400-d1ca-11eb-9ef6-4477f2af9b85.gif)
+
